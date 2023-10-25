@@ -1,0 +1,14 @@
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\bin\Debug\net7.0\Hata Yönetimi.exe
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\bin\Debug\net7.0\Hata Yönetimi.deps.json
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\bin\Debug\net7.0\Hata Yönetimi.runtimeconfig.json
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\bin\Debug\net7.0\Hata Yönetimi.dll
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\bin\Debug\net7.0\Hata Yönetimi.pdb
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\obj\Debug\net7.0\Hata Yönetimi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\obj\Debug\net7.0\Hata Yönetimi.AssemblyInfoInputs.cache
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\obj\Debug\net7.0\Hata Yönetimi.AssemblyInfo.cs
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\obj\Debug\net7.0\Hata Yönetimi.csproj.CoreCompileInputs.cache
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\obj\Debug\net7.0\Hata Yönetimi.dll
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\obj\Debug\net7.0\refint\Hata Yönetimi.dll
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\obj\Debug\net7.0\Hata Yönetimi.pdb
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\obj\Debug\net7.0\Hata Yönetimi.genruntimeconfig.cache
+C:\Users\Taha\OneDrive\Masaüstü\Hata Yönetimi\obj\Debug\net7.0\ref\Hata Yönetimi.dll
