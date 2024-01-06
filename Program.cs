@@ -6,49 +6,49 @@ namespace Errormanagement
     {
         static void Main(string[] args)
         {
-            // Kullanıcıdan bir sayı girmesini isteyen ve girilen sayıyı ekrana yazdıran kod bloğu
-            // Ancak bu kısımda hata olup olmadığını kontrol etmek için try-catch-finally bloğu kullanılmamış.
+            // Asking the user to enter a number and displaying the entered number on the screen.
+            // However, in this section, try-catch-finally block is not used to check for errors.
 
             //try
             //{
-            //    Console.WriteLine("Bir sayi giriniz");
-            //    int sayi = Convert.ToInt32(Console.ReadLine());
-            //    Console.WriteLine("Girmiş olduğunuz sayi:" + sayi);
+            //    Console.WriteLine("Enter a number");
+            //    int number = Convert.ToInt32(Console.ReadLine());
+            //    Console.WriteLine("The number you entered: " + number);
             //}
             //catch(Exception ex)
             //{
-            //    Console.WriteLine("Hata:" + ex.Message.ToString());
+            //    Console.WriteLine("Error:" + ex.Message.ToString());
             //}
             //finally
             //{
-            //    Console.WriteLine("İşlem tamamlandı");
+            //    Console.WriteLine("Operation completed");
             //}
 
-            // Hata yönetimi için try-catch bloğu kullanılmış.
+            // Error management using the try-catch block.
             try
             {
-                // Hata alması muhtemel bir kod parçası
-                // int a = int.Parse("test"); // Bu satır, FormatException'a neden olur.
+                // A code snippet where an error might occur.
+                // int a = int.Parse("test"); // This line causes a FormatException.
                 int a = int.Parse("-2000000000");
             }
-            // ArgumentNullException, FormatException ve OverflowException türündeki hataların her biri için ayrı catch bloğu kullanılmış.
+            // Separate catch blocks are used for ArgumentNullException, FormatException, and OverflowException.
             catch (ArgumentNullException kex)
             {
-                // Boş değer girildiğinde bu blok çalışır.
-                Console.WriteLine("Boş değer girdiniz");
-                Console.WriteLine(kex); // Hatanın ayrıntılarını yazdırır.
+                // This block is executed when an empty value is entered.
+                Console.WriteLine("You entered an empty value");
+                Console.WriteLine(kex); // Prints the details of the error.
             }
             catch (FormatException kex)
             {
-                // Geçersiz bir formatta veri girildiğinde bu blok çalışır.
-                Console.WriteLine("Veri tipi uygun değil");
-                Console.WriteLine(kex); // Hatanın ayrıntılarını yazdırır.
+                // This block is executed when data in an invalid format is entered.
+                Console.WriteLine("The data type is not appropriate");
+                Console.WriteLine(kex); // Prints the details of the error.
             }
             catch (OverflowException kex)
             {
-                // Büyük veya küçük bir değer girildiğinde bu blok çalışır.
-                Console.WriteLine("Büyük yada küçük değer girdiniz");
-                Console.WriteLine(kex); // Hatanın ayrıntılarını yazdırır.
+                // This block is executed when a too large or too small value is entered.
+                Console.WriteLine("You entered a value that is too large or too small");
+                Console.WriteLine(kex); // Prints the details of the error.
             }
         }
     }
